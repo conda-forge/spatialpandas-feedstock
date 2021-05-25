@@ -29,6 +29,7 @@ requirements:
     - param
     - pyarrow >=0.15
     - python >=3.6
+    - python-snappy
     - retrying
 
 test:
