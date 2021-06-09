@@ -1,5 +1,5 @@
 {% set name = "spatialpandas" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 74dd1152819d16ce892a7dfaec56670eea0654e72301319143bd359509c8a362
+  sha256: 5d7827bd53678c7a3500c023f65e3d8968243d517b142b7016615c8c25fc5c03
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - numpy
     - pandas >=0.25
     - param
-    - pyarrow >=0.15
+    - pyarrow >=1.0
     - python >=3.6
     - python-snappy
     - retrying
