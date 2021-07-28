@@ -1,5 +1,5 @@
 {% set name = "spatialpandas" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5d7827bd53678c7a3500c023f65e3d8968243d517b142b7016615c8c25fc5c03
+  sha256: fce24d06d1886d86bee4e4370e2ac21a815e1b3ef4bde091382f2bd7daf00527
 
 build:
   number: 0
