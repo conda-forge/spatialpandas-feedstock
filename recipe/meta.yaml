@@ -1,7 +1,6 @@
 {% set name = "spatialpandas" %}
 {% set version = "0.4.4" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -11,24 +10,23 @@ source:
   sha256: f4d15ef794aac796e6941c591095dbbe5087e2cff39139618e150365b2e238f5
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - param
   run:
-    - dask >=2.0
+    - dask-core
     - fsspec
     - numba
-    - numpy
-    - pandas >=0.25
+    - pandas
     - param
     - pyarrow >=1.0
-    - python >=3.6
+    - python >=3.7
     - python-snappy
     - retrying
 
@@ -50,4 +48,6 @@ extra:
   recipe-maintainers:
     - jonmmease
     - andrewannex
+    - ianthomas23
+    - maximlt
     - philippjfr
