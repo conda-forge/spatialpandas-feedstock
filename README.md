@@ -1,11 +1,11 @@
-About spatialpandas
-===================
+About spatialpandas-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spatialpandas-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/holoviz/spatialpandas
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spatialpandas-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pandas extension arrays for spatial/geometric operations
 
