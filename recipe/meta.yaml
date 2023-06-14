@@ -11,14 +11,17 @@ source:
 
 build:
   number: 0
-  noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  skip: True  #[py<38]
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python
     - param
+    - pyct >=0.4.4
+    - wheel
+    - setuptools
   run:
     - dask-core
     - fsspec
@@ -26,7 +29,7 @@ requirements:
     - pandas
     - param
     - pyarrow >=1.0
-    - python >=3.8
+    - python
     - retrying
 
 test:
