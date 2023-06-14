@@ -19,8 +19,7 @@ requirements:
   host:
     - pip
     - python
-    - param
-    - pyct >=0.4.4
+    - param 1.13.0
     - wheel
     - setuptools
   run:
