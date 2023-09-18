@@ -1,5 +1,5 @@
 {% set name = "spatialpandas" %}
-{% set version = "0.4.8" %}
+{% set version = "0.4.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 25329caf4b79fadc4e921c6806e3b4fbc9eaac0a418fbf2b861bb30dd3ce4de4
+  sha256: 666c7b33fe0e8516b88029beaf23f7260375ec42997e5a2e40b3e689d73f28cf
 
 build:
   number: 0
@@ -52,8 +52,6 @@ about:
   license_family: BSD
   dev_url: https://pypi.org/project/spatialpandas/
   doc_url: https://github.com/holoviz/spatialpandas/blob/main/README.md
-
-
 
 extra:
   recipe-maintainers:
