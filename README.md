@@ -144,7 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@andrewannex](https://github.com/andrewannex/)
-* [@ianthomas23](https://github.com/ianthomas23/)
 * [@maximlt](https://github.com/maximlt/)
 * [@philippjfr](https://github.com/philippjfr/)
 

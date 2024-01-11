@@ -10,14 +10,14 @@ source:
   sha256: 032e24ebb40f75c5c79cb79d7c281f2990e69ba382c0b24acb53da7bba60851c
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
     - param
   run:
     - dask-core
@@ -26,7 +26,7 @@ requirements:
     - pandas
     - param
     - pyarrow >=1.0
-    - python >=3.8
+    - python >=3.9
     - retrying
 
 test:
@@ -46,6 +46,5 @@ about:
 extra:
   recipe-maintainers:
     - andrewannex
-    - ianthomas23
     - maximlt
     - philippjfr
